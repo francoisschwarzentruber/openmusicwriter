@@ -1,0 +1,201 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/*
+ * InstrumentsPanel.java
+ *
+ * Created on 14 avr. 2011, 22:39:44
+ */
+
+package musicwriter.guiswing.dialogs;
+
+import java.awt.FlowLayout;
+import musicwriter.donnees.Instrument;
+import musicwriter.guiswing.VerticalFlowLayout;
+
+/**
+ *
+ * @author Ancmin
+ */
+public class InstrumentsPanel extends javax.swing.JPanel {
+    private GhostGlassPane ghostGlassPane;
+    private InstrumentsGroup currentInstrumentsGroup;
+    
+    private void addInstrumentsGroup() {
+        currentInstrumentsGroup = new InstrumentsGroup();
+        jListInstruments.add(currentInstrumentsGroup);
+    }
+
+    class InstrumentsGroup extends javax.swing.JPanel {
+
+        public InstrumentsGroup() {
+            setBorder(new RoundedBorder());
+            setLayout(new VerticalFlowLayout(FlowLayout.LEFT, 12, 5));
+        }
+        
+    }
+    
+    
+    private void instrumentAdd(Instrument instrument)
+    {
+        final InstrumentLabel l = new InstrumentLabel(instrument);
+        
+//        try {
+//            SwingUtilities.invokeAndWait(new Runnable() {
+//
+//                @Override
+//                public void run() {
+                    currentInstrumentsGroup.add(l);
+                    l.addGhostManagers(ghostGlassPane);
+                    jListInstruments.doLayout();
+                    jListInstruments.repaint();
+                    jScrollPane1.doLayout();
+//                }
+//            });
+//        } catch (InterruptedException ex) {
+//            Logger.getLogger(InstrumentsPanel.class.getName()).log(Level.SEVERE, null, ex);
+//        } catch (InvocationTargetException ex) {
+//            Logger.getLogger(InstrumentsPanel.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+        
+    }
+
+
+    
+    
+    
+    public void fillInstruments(GhostGlassPane p)
+    {
+        ghostGlassPane = p;
+        
+        
+//        Thread thread = new Thread(new Runnable() {
+//
+//            @Override
+//            public void run() {
+        
+        
+                addInstrumentsGroup();
+                instrumentAdd(new Instrument(0));
+                instrumentAdd( new Instrument(6)); //clavecin
+                instrumentAdd( new Instrument(8)); //celesta
+                instrumentAdd( new Instrument(9)); //glocken
+                instrumentAdd( new Instrument(21));//accordéon
+                
+                addInstrumentsGroup();
+                instrumentAdd( new Instrument(10));
+                instrumentAdd( new Instrument(11));
+                instrumentAdd( new Instrument(12));
+                instrumentAdd( new Instrument(13));
+                instrumentAdd( new Instrument(14));
+                instrumentAdd( new Instrument(15));
+                instrumentAdd( new Instrument(16));
+
+                
+                instrumentAdd( new Instrument(22));
+                instrumentAdd( new Instrument(23)); //bandonéon
+
+                instrumentAdd( new Instrument(24)); //guitare
+
+                addInstrumentsGroup();
+                instrumentAdd( new Instrument(40)); //violon
+                instrumentAdd( new Instrument(41));
+                instrumentAdd( new Instrument(42));
+                instrumentAdd(new Instrument(43));
+
+
+                instrumentAdd( new Instrument(46));
+                instrumentAdd( new Instrument(47));
+
+                addInstrumentsGroup();
+                instrumentAdd( new Instrument(56));//trompette
+                instrumentAdd( new Instrument(57));
+                instrumentAdd( new Instrument(58));
+                instrumentAdd( new Instrument(59));
+                instrumentAdd( new Instrument(60));
+
+                instrumentAdd( new Instrument(64));
+                instrumentAdd( new Instrument(65));
+                instrumentAdd( new Instrument(66));
+                instrumentAdd( new Instrument(67));
+                
+                addInstrumentsGroup();
+                instrumentAdd( new Instrument(68)); //hautbois
+                instrumentAdd( new Instrument(69));
+                instrumentAdd( new Instrument(70));
+                
+                
+                instrumentAdd( new Instrument(71)); //clarinette
+                instrumentAdd( new Instrument(72));
+                instrumentAdd( new Instrument(73));
+                instrumentAdd( new Instrument(74));
+                instrumentAdd( new Instrument(75));
+//            }
+//        });
+//        
+//        thread.run();
+        
+    }
+    
+    /** Creates new form InstrumentsPanel */
+    public InstrumentsPanel() {
+        initComponents();
+
+    }
+    
+    
+    
+
+    
+        
+
+    /** This method is called from within the constructor to
+     * initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is
+     * always regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jListInstruments = new javax.swing.JPanel();
+
+        setName("Form"); // NOI18N
+        setLayout(new javax.swing.BoxLayout(this, javax.swing.BoxLayout.LINE_AXIS));
+
+        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        jScrollPane1.setName("jScrollPane1"); // NOI18N
+        jScrollPane1.addComponentListener(new java.awt.event.ComponentAdapter() {
+            public void componentResized(java.awt.event.ComponentEvent evt) {
+                jScrollPane1ComponentResized(evt);
+            }
+        });
+
+        jListInstruments.setAutoscrolls(true);
+        jListInstruments.setName("jListInstruments"); // NOI18N
+        jListInstruments.setLayout(new javax.swing.BoxLayout(jListInstruments, javax.swing.BoxLayout.Y_AXIS));
+        jScrollPane1.setViewportView(jListInstruments);
+
+        add(jScrollPane1);
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void jScrollPane1ComponentResized(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_jScrollPane1ComponentResized
+        //jListInstruments.setBounds(0, 0, jScrollPane1.getWidth(), Integer.MAX_VALUE);
+        
+      //  /jListInstruments.setPreferredSize(new Dimension(jScrollPane1.getWidth(), 200));
+       // jListInstruments.setSize(new Dimension(jScrollPane1.getWidth(),1));
+        
+        doLayout();
+    }//GEN-LAST:event_jScrollPane1ComponentResized
+
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel jListInstruments;
+    private javax.swing.JScrollPane jScrollPane1;
+    // End of variables declaration//GEN-END:variables
+
+}

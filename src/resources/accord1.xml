@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 1.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+
+<score-partwise>
+  <part-list>
+    <score-part id="P1">
+      <score-instrument id="P1I1" />
+      <midi-instrument id="P1I1">
+        <midi-channel>1</midi-channel>
+        <midi-program>40</midi-program>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure>
+      <attributes>
+        <staves>1</staves>
+        <divisions>10080</divisions>
+      </attributes>
+      <note>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <voice>35241</voice>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          <alter>0</alter>
+        </pitch>
+        <staff>1</staff>
+        <notations>
+          <articulations />
+          <ornaments />
+        </notations>
+        <stem>down</stem>
+      </note>
+      <backup>
+        <duration>10080</duration>
+      </backup>
+      <forward>
+        <duration>10080</duration>
+      </forward>
+      <note>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <voice>35241</voice>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          <alter>0</alter>
+        </pitch>
+        <staff>1</staff>
+        <notations>
+          <articulations />
+          <ornaments />
+        </notations>
+        <stem>down</stem>
+      </note>
+      <backup>
+        <duration>10080</duration>
+      </backup>
+      <note>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <voice>35241</voice>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+        </pitch>
+        <staff>1</staff>
+        <notations>
+          <articulations />
+          <ornaments />
+        </notations>
+        <stem>down</stem>
+      </note>
+      <backup>
+        <duration>10080</duration>
+      </backup>
+      <note>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <voice>35241</voice>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+          <alter>0</alter>
+        </pitch>
+        <staff>1</staff>
+        <notations>
+          <articulations />
+          <ornaments />
+        </notations>
+        <stem>down</stem>
+      </note>
+      <backup>
+        <duration>10080</duration>
+      </backup>
+      <forward>
+        <duration>10080</duration>
+      </forward>
+      <note>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <voice>35241</voice>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          <alter>0</alter>
+        </pitch>
+        <staff>1</staff>
+        <notations>
+          <articulations />
+          <ornaments />
+        </notations>
+        <stem>down</stem>
+      </note>
+      <backup>
+        <duration>10080</duration>
+      </backup>
+      <forward>
+        <duration>10080</duration>
+      </forward>
+      <note>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <voice>35241</voice>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          <alter>0</alter>
+        </pitch>
+        <staff>1</staff>
+        <notations>
+          <articulations />
+          <ornaments />
+        </notations>
+        <stem>down</stem>
+      </note>
+      <backup>
+        <duration>10080</duration>
+      </backup>
+      <note>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <voice>35241</voice>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          <alter>0</alter>
+        </pitch>
+        <staff>1</staff>
+        <notations>
+          <articulations />
+          <ornaments />
+        </notations>
+        <stem>down</stem>
+      </note>
+      <backup>
+        <duration>10080</duration>
+      </backup>
+      <note>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <voice>35241</voice>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+          <alter>0</alter>
+        </pitch>
+        <staff>1</staff>
+        <notations>
+          <articulations />
+          <ornaments />
+        </notations>
+        <stem>down</stem>
+      </note>
+      <backup>
+        <duration>10080</duration>
+      </backup>
+    </measure>
+  </part>
+</score-partwise>
+

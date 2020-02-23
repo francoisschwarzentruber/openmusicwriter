@@ -1,0 +1,23 @@
+Open Musicwriter
+Logiciel de composition musicale sous licence GPL
+http://www.irisa.fr/prive/fschwarz/musicwriter/
+
+Développement général
+François Schwarzentruber
+
+Développement importation MIDI
+Nadine Guiraud
+
+Développement chargement images au format SVG
+Bilal Saïd
+
+Remerciements
+Sylvain Lemouzy
+Fabrice Dupré
+Sucen Liu
+Pablo Seban
+Romain Legendre
+Marine Sinquin
+Brice Loustau
+Cédric Birien
+

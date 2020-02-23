@@ -1,0 +1,1647 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.6">
+  <NonVisualComponents>
+    <Container class="javax.swing.JMenuBar" name="menuBar">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="menuBar" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="fileMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fileMenu.text"/>
+            <Property name="name" type="java.lang.String" value="fileMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuNew">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+N"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuNew.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuNew.text"/>
+                <Property name="name" type="java.lang.String" value="mnuNew" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuNewActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="cmdOpen">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+O"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="cmdOpen.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="cmdOpen.text"/>
+                <Property name="name" type="java.lang.String" value="cmdOpen" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdOpenActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuSave">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+S"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuSave.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuSave.text"/>
+                <Property name="name" type="java.lang.String" value="mnuSave" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuSaveActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuSaveAs">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuSaveAs.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuSaveAs.text"/>
+                <Property name="name" type="java.lang.String" value="mnuSaveAs" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuSaveAsActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuExport">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuExport.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuExport.text"/>
+                <Property name="name" type="java.lang.String" value="mnuExport" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuExportActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuPrint">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="musicwriter.guiswing.MusicwriterView" id="imprimer" methodName="imprimer"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuPrint.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuPrint.text"/>
+                <Property name="name" type="java.lang.String" value="mnuPrint" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="org.jdesktop.application.Application" id="quit" methodName="quit"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="exitMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="exitMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jMenu2.text"/>
+            <Property name="name" type="java.lang.String" value="jMenu2" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAnnuler">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+Z"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuAnnuler.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAnnuler.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAnnuler" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAnnulerActionPerformed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="mnuAnnulerKeyReleased"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuRefaire">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+Y"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuRefaire.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuRefaire.text"/>
+                <Property name="name" type="java.lang.String" value="mnuRefaire" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuRefaireActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuCut">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+X"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuCut.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuCut.text"/>
+                <Property name="name" type="java.lang.String" value="mnuCut" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuCutActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuCopy">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+C"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuCopy.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuCopy.text"/>
+                <Property name="name" type="java.lang.String" value="mnuCopy" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuCopyActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuPaste">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+V"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuPaste.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuPaste.text"/>
+                <Property name="name" type="java.lang.String" value="mnuPaste" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuPasteActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator3">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator3" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuEditionSupprimer">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="DELETE"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuEditionSupprimer.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuEditionSupprimer.text"/>
+                <Property name="name" type="java.lang.String" value="mnuEditionSupprimer" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuEditionSupprimerActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="mnuSelection">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="mnuSelection.text"/>
+                <Property name="name" type="java.lang.String" value="mnuSelection" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuSelectAll">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+A"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuSelectAll.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuSelectAll" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuSelectAllActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuDeselectAll">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="musicwriter.MusicwriterView" id="selectionDeselectionnerTout" methodName="selectionDeselectionnerTout"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuDeselectAll.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuDeselectAll" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuDeselectAllActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuSelectionMesure">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Shift+M"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuSelectionMesure.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuSelectionMesure" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuSelectionMesureActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="mnuInsert">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="mnuInsert.text"/>
+            <Property name="name" type="java.lang.String" value="mnuInsert" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuNote">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="ENTER"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="mnuNote.text"/>
+                <Property name="name" type="java.lang.String" value="mnuNote" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuSilence">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="SPACE"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="mnuSilence.text"/>
+                <Property name="name" type="java.lang.String" value="mnuSilence" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuInsererBarreDeMesure">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="musicwriter.guiswing.MusicwriterView" id="actionInsertMeasureBar" methodName="actionInsertMeasureBar"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="mnuInsererBarreDeMesure.text"/>
+                <Property name="name" type="java.lang.String" value="mnuInsererBarreDeMesure" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuParoles">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+L"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="mnuParoles.text"/>
+                <Property name="name" type="java.lang.String" value="mnuParoles" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuParolesActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="mnuInstruments">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="mnuInstruments.text"/>
+            <Property name="name" type="java.lang.String" value="mnuInstruments" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuInstrumentationChange">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuInstrumentationChange.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuInstrumentationChange.text"/>
+                <Property name="name" type="java.lang.String" value="mnuInstrumentationChange" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuInstrumentationChangeActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAffichagePartie">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="musicwriter.guiswing.MusicwriterView" id="afficherPartie" methodName="afficherPartie"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuAffichagePartie.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAffichagePartie.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAffichagePartie" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAffichagePartieActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAffichageToutConducteur">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="musicwriter.guiswing.MusicwriterView" id="afficherConducteur" methodName="afficherConducteur"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuAffichageToutConducteur.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAffichageToutConducteur.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAffichageToutConducteur" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAffichageToutConducteurActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="mnuDisplay">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="mnuDisplay.text"/>
+            <Property name="name" type="java.lang.String" value="mnuDisplay" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAffichagePartie1">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="musicwriter.guiswing.MusicwriterView" id="afficherPartie" methodName="afficherPartie"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuAffichagePartie1.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAffichagePartie1.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAffichagePartie1" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAffichagePartie1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAffichageToutConducteur1">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="musicwriter.guiswing.MusicwriterView" id="afficherConducteur" methodName="afficherConducteur"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuAffichageToutConducteur1.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAffichageToutConducteur1.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAffichageToutConducteur1" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAffichageToutConducteur1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="mnuZoom">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="mnuZoom.text"/>
+                <Property name="name" type="java.lang.String" value="mnuZoom" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuZoom50">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuZoom50.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuZoom50" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuZoom50ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuZoom100">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuZoom100.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuZoom100" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuZoom100ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuZoom200">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuZoom200.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuZoom200" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuZoom200ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenuNoteDuree">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jMenuNoteDuree.text"/>
+            <Property name="name" type="java.lang.String" value="jMenuNoteDuree" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuTripleCroche">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuTripleCroche.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuTripleCroche.text"/>
+                <Property name="name" type="java.lang.String" value="mnuTripleCroche" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuTripleCrocheActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuDoubleCroche">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuDoubleCroche.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuDoubleCroche.text"/>
+                <Property name="name" type="java.lang.String" value="mnuDoubleCroche" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuDoubleCrocheActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemCroche">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jMenuItemCroche.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItemCroche.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItemCroche" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemCrocheActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemNoire">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jMenuItemNoire.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItemNoire.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItemNoire" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemNoireActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItemBlanche">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jMenuItemBlanche.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItemBlanche.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItemBlanche" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItemBlancheActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuRonde">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuRonde.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuRonde.text"/>
+                <Property name="name" type="java.lang.String" value="mnuRonde" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuRondeActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuSelectionEtirerDoubler">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuSelectionEtirerDoubler.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuSelectionEtirerDoubler.text"/>
+                <Property name="name" type="java.lang.String" value="mnuSelectionEtirerDoubler" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuSelectionEtirerDoublerActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuSelectionDureeDiviserParDeux">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuSelectionDureeDiviserParDeux.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuSelectionDureeDiviserParDeux.text"/>
+                <Property name="name" type="java.lang.String" value="mnuSelectionDureeDiviserParDeux" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuSelectionDureeDiviserParDeuxActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="mnuAlteration">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="mnuAlteration.text"/>
+            <Property name="name" type="java.lang.String" value="mnuAlteration" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAlterationDoubleBemol">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="V"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuAlterationDoubleBemol.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAlterationDoubleBemol.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAlterationDoubleBemol" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAlterationDoubleBemolActionPerformed"/>
+                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="mnuAlterationDoubleBemolKeyPressed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAlterationBemol">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="B"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuAlterationBemol.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAlterationBemol.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAlterationBemol" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAlterationBemolActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAlterationBecarre">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="N"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuAlterationBecarre.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAlterationBecarre.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAlterationBecarre" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAlterationBecarreActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAlterationDiese">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="3"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuAlterationDiese.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAlterationDiese.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAlterationDiese" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAlterationDieseActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAlterationDoubleDiese">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="4"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuAlterationDoubleDiese.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAlterationDoubleDiese.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAlterationDoubleDiese" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAlterationDoubleDieseActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator2" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAlterationEnharmonique">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+E"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAlterationEnharmonique.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAlterationEnharmonique" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAlterationEnharmoniqueActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAlterationArmature">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAlterationArmature.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAlterationArmature" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAlterationArmatureActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuAlterationViaTonalite">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="mnuAlterationViaTonalite.text"/>
+                <Property name="name" type="java.lang.String" value="mnuAlterationViaTonalite" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuAlterationViaTonaliteActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="mnuVoix">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="mnuVoix.text"/>
+            <Property name="name" type="java.lang.String" value="mnuVoix" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuNouvelleVoix">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuNouvelleVoix.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuNouvelleVoix.text"/>
+                <Property name="name" type="java.lang.String" value="mnuNouvelleVoix" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuNouvelleVoixActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuVoiceSameVoice">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="mnuVoiceSameVoice.text"/>
+                <Property name="name" type="java.lang.String" value="mnuVoiceSameVoice" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuVoixNotesIndependantes">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuVoixNotesIndependantes.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuVoixNotesIndependantes.text"/>
+                <Property name="name" type="java.lang.String" value="mnuVoixNotesIndependantes" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuVoixNotesIndependantesActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="mnuHarmonie">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="mnuHarmonie.text"/>
+            <Property name="name" type="java.lang.String" value="mnuHarmonie" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuTransposer">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="musicwriter.guiswing.MusicwriterView" id="actionTranspose" methodName="actionTranspose"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="mnuTransposer.text"/>
+                <Property name="name" type="java.lang.String" value="mnuTransposer" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="mnuIntervalAdd">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAdd.text"/>
+                <Property name="name" type="java.lang.String" value="mnuIntervalAdd" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAdd1">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Alt+2"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAdd1.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAdd1" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAdd2">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Alt+3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAdd2.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAdd2" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAdd4">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Alt+4"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAdd4.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAdd4" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAdd5">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Alt+5"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAdd5.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAdd5" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAdd6">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Alt+6"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAdd6.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAdd6" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAdd7">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Alt+7"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAdd7.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAdd7" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAdd8">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Alt+8"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAdd8.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAdd8" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator17">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="jSeparator17" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAddM2">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Shift+2"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAddM2.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAddM2" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAddM3">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Shift+3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAddM3.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAddM3" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAddM4">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Shift+4"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAddM4.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAddM4" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAddM5">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Shift+5"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAddM5.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAddM5" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAddM6">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Shift+6"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAddM6.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAddM6" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAddM7">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Shift+7"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAddM7.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAddM7" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuIntervalAddM8">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Shift+8"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuIntervalAddM8.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuIntervalAddM8" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuIntervalAdd1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu5">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jMenu5.text"/>
+            <Property name="name" type="java.lang.String" value="jMenu5" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuConfiguration">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="mnuConfiguration.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="mnuConfiguration.text"/>
+                <Property name="name" type="java.lang.String" value="mnuConfiguration" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuConfigurationActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuMicrophoneEnregistrer">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="mnuMicrophoneEnregistrer.text"/>
+                <Property name="name" type="java.lang.String" value="mnuMicrophoneEnregistrer" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuMicrophoneEnregistrerActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuMicrophoneStop">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="mnuMicrophoneStop.text"/>
+                <Property name="name" type="java.lang.String" value="mnuMicrophoneStop" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuMicrophoneStopActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="helpMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="helpMenu.text"/>
+            <Property name="name" type="java.lang.String" value="helpMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem28">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItem28.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItem28" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem28ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem29">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItem29.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItem29" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem29ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuSendComments">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="mnuSendComments.text"/>
+                <Property name="name" type="java.lang.String" value="mnuSendComments" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuSendCommentsActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem9">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItem9.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItem9" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem9ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="musicwriter.MusicwriterView" id="showAboutBox" methodName="showAboutBox"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="aboutMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="aboutMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem8">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jMenuItem8.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jMenuItem8.text"/>
+                <Property name="name" type="java.lang.String" value="jMenuItem8" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem8ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator16">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator16" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenu1">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jMenu1.text"/>
+                <Property name="name" type="java.lang.String" value="jMenu1" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jMenuItem1.text"/>
+                    <Property name="name" type="java.lang.String" value="jMenuItem1" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuRepaint">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="F5"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuRepaint.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuRepaint" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuRepaintActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="mnuDebugAllSameVoice">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="mnuDebugAllSameVoice.text"/>
+                    <Property name="name" type="java.lang.String" value="mnuDebugAllSameVoice" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuDebugAllSameVoiceActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="statusPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="statusPanel" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="statusPanelKeyTyped"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="statusPanelSeparator" alignment="0" pref="577" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="statusMessageLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="407" max="32767" attributes="0"/>
+                  <Component id="progressBar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="statusAnimationLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="statusPanelSeparator" min="-2" pref="2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="statusMessageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="statusAnimationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="progressBar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JSeparator" name="statusPanelSeparator">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusPanelSeparator" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusMessageLabel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusMessageLabel" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusAnimationLabel">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="name" type="java.lang.String" value="statusAnimationLabel" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JProgressBar" name="progressBar">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="progressBar" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="panelGeneral">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="panelGeneral" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="panelTravail">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="panelTravail" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="panelTravailKeyPressed"/>
+          </Events>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+            <Property name="axis" type="int" value="1"/>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="panBarreOutils">
+              <Properties>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[2147483647, 41]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[531, 41]"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="panBarreOutils" noResource="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[1407, 41]"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+              <SubComponents>
+                <Component class="musicwriter.guiswing.PanelHelpStylet" name="panelHelpStylet">
+                  <Properties>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[597, 32]"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="panelHelpStylet" noResource="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[597, 32]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="modeStylet"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Container class="javax.swing.JToolBar" name="toolBarEcriture">
+                  <Properties>
+                    <Property name="floatable" type="boolean" value="false"/>
+                    <Property name="rollover" type="boolean" value="true"/>
+                    <Property name="font" type="java.awt.Font" resourceKey="toolBarEcriture.font"/>
+                    <Property name="name" type="java.lang.String" value="toolBarEcriture" noResource="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="modeecriture"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="boutonOuvrir">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonRefaire.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonOuvrir.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonOuvrir.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonOuvrir.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonOuvrir" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonOuvrirActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="boutonSauvegarder">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonRefaire.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonSauvegarder.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonSauvegarder.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonSauvegarder.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonSauvegarder" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonSauvegarderActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="boutonImprimer">
+                      <Properties>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="musicwriter.guiswing.MusicwriterView" id="imprimer" methodName="imprimer"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonRefaire.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonImprimer.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonImprimer.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonImprimer.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonImprimer" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonImprimerActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JToolBar$Separator" name="jSeparator12">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator12" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="boutonAnnuler">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonRefaire.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonAnnuler.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonAnnuler.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonAnnuler.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonAnnuler" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonAnnulerActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="boutonRefaire">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonRefaire.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonRefaire.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonRefaire.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonRefaire.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonRefaire" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonRefaireActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JToolBar$Separator" name="jSeparator13">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator13" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JPanel" name="jPanel2">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+                      </Properties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel1">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+                      </Properties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+                        <Property name="axis" type="int" value="3"/>
+                      </Layout>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="boutonEntreeMIDIEnregistrer">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonRefaire.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonEntreeMIDIEnregistrer.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonEntreeMIDIEnregistrer.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonEntreeMIDIEnregistrer.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonEntreeMIDIEnregistrer" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonEntreeMIDIEnregistrerActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="boutonSortieMIDILecture">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonRefaire.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonSortieMIDILecture.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonSortieMIDILecture.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonSortieMIDILecture.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonSortieMIDILecture" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonSortieMIDILectureActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="boutonPause">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonRefaire.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonPause.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonPause.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonPause.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonPause" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonPauseActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="boutonMIDIStop">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonRefaire.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonMIDIStop.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonMIDIStop.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonMIDIStop.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonMIDIStop" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonMIDIStopActionPerformed,boutonEntreeMIDIStopActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JToolBar" name="toolBarLecture">
+                  <Properties>
+                    <Property name="floatable" type="boolean" value="false"/>
+                    <Property name="rollover" type="boolean" value="true"/>
+                    <Property name="name" type="java.lang.String" value="toolBarLecture" noResource="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="modeLecture"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="boutonSortieMIDIReprendre">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonRefaire.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonSortieMIDIReprendre.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonSortieMIDIReprendre.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonSortieMIDIReprendre.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonSortieMIDIReprendre" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonSortieMIDIReprendreActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="boutonPause1">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonPause1.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonPause1.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonPause1.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonPause1.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonPause1" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonPauseActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="boutonMIDIStop1">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="boutonMIDIStop1.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="boutonMIDIStop1.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="boutonMIDIStop1.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="boutonMIDIStop1.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="boutonMIDIStop1" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonMIDIStopActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JToolBar$Separator" name="jSeparator11">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator11" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel4">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jLabel4.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabel4.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabel4" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSlider" name="jSliderLectureVitesse">
+                      <Properties>
+                        <Property name="maximum" type="int" value="200"/>
+                        <Property name="minimum" type="int" value="1"/>
+                        <Property name="value" type="int" value="100"/>
+                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[150, 23]"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="jSliderLectureVitesse" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel5">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jLabel5.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jLabel5.text"/>
+                        <Property name="name" type="java.lang.String" value="jLabel5" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JToolBar" name="toolBarSelection">
+                  <Properties>
+                    <Property name="floatable" type="boolean" value="false"/>
+                    <Property name="rollover" type="boolean" value="true"/>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[782, 41]"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="toolBarSelection" noResource="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[800, 41]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="modeSelection"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblSelectionPlus">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" resourceKey="lblSelectionPlus.background"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="lblSelectionPlus.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="lblSelectionPlus.text"/>
+                        <Property name="verticalAlignment" type="int" value="3"/>
+                        <Property name="horizontalTextPosition" type="int" value="4"/>
+                        <Property name="name" type="java.lang.String" value="lblSelectionPlus" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JToolBar" name="toolbarNotes">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="name" type="java.lang.String" value="toolbarNotes" noResource="true"/>
+                      </Properties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JToolBar$Separator" name="jSeparator4">
+                          <Properties>
+                            <Property name="name" type="java.lang.String" value="jSeparator4" noResource="true"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="cmdNoteDecorer">
+                          <Properties>
+                            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                              <action class="musicwriter.guiswing.MusicwriterView" id="actionNoteDecorerBoiteDeDialogue" methodName="actionNoteDecorerBoiteDeDialogue"/>
+                            </Property>
+                            <Property name="icon" type="javax.swing.Icon" resourceKey="cmdNoteDecorer.icon"/>
+                            <Property name="text" type="java.lang.String" resourceKey="cmdNoteDecorer.text"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="4"/>
+                            <Property name="name" type="java.lang.String" value="cmdNoteDecorer" noResource="true"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JToolBar$Separator" name="jSeparator9">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator9" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="cmdSelectionSupprimer">
+                      <Properties>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="musicwriter.MusicwriterView" id="actionSelectionSupprimer" methodName="actionSelectionSupprimer"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="cmdSelectionSupprimer.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="cmdSelectionSupprimer.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="cmdSelectionSupprimer.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="cmdSelectionSupprimer" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToolBar$Separator" name="jSeparator10">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator10" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="cmdSelectionArmure">
+                      <Properties>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="musicwriter.MusicwriterView" id="actionSelectionArmure" methodName="actionSelectionArmure"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="cmdSelectionArmure.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="cmdSelectionArmure.text"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="4"/>
+                        <Property name="name" type="java.lang.String" value="cmdSelectionArmure" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="cmdSelectionMesureSignature">
+                      <Properties>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="musicwriter.MusicwriterView" id="actionSelectionMesureSignature" methodName="actionSelectionMesureSignature"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="cmdSelectionMesureSignature.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="cmdSelectionMesureSignature.text"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="4"/>
+                        <Property name="name" type="java.lang.String" value="cmdSelectionMesureSignature" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="cmdSelectionClef">
+                      <Properties>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="musicwriter.MusicwriterView" id="actionSelectionClef" methodName="actionSelectionClef"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="cmdSelectionClef.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="cmdSelectionClef.text"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="4"/>
+                        <Property name="name" type="java.lang.String" value="cmdSelectionClef" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="cmdSelectionTempo">
+                      <Properties>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="musicwriter.MusicwriterView" id="actionSelectionTempo" methodName="actionSelectionTempo"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="cmdSelectionTempo.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="cmdSelectionTempo.text"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="4"/>
+                        <Property name="name" type="java.lang.String" value="cmdSelectionTempo" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="musicwriter.guiswing.PanelHelpNoteDeplacement" name="panelHelpNoteDeplacement">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="panelHelpNoteDeplacement" noResource="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="modeSelectionDeplacementOuCopie"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="surfaceTravail">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="surfaceTravail" noResource="true"/>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+              <SubComponents>
+                <Component class="musicwriter.guiswing.palette.PalettePanel" name="palettePanel">
+                  <Properties>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[128, 2147483647]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[128, 225]"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="palettePanel" noResource="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[128, 225]"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="jScrollPane" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="componentResized" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="jScrollPaneComponentResized"/>
+                  </Events>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="partitionPanel">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jPanel" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="partitionPanelMouseClicked"/>
+                        <EventHandler event="inputMethodTextChanged" listener="java.awt.event.InputMethodListener" parameters="java.awt.event.InputMethodEvent" handler="partitionPanelInputMethodTextChanged"/>
+                        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="partitionPanelKeyPressed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new PartitionPanel(&#xd;&#xa;       this,&#xd;&#xa;       partitionVue,&#xd;&#xa;       histoire)"/>
+                      </AuxValues>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="1228" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="413" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panAide">
+          <Properties>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 22000000]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 290]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="panAide" noResource="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 400]"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+          <SubComponents>
+            <Component class="musicwriter.guiswing.HelpPanel" name="helpPanel">
+              <Properties>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[200, 2147483647]"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="helpPanel" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                  <BorderConstraints direction="Center"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="panelGeneral"/>
+    </Property>
+    <Property name="menuBar" type="javax.swing.JMenuBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="menuBar"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-58,0,0,5,121"/>
+  </AuxValues>
+</Form>
