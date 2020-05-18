@@ -7,8 +7,8 @@ Open Musicwriter is a software to write music scores. It was developped between 
 You can enter notes via your microphone:
 https://www.youtube.com/watch?v=To_kwGIFznI
 
-You can enter notes by drawing:
+It features hand-written note recognition:
 https://www.youtube.com/watch?v=kVzTVEgyk-8
 
-The software enables youto be free:
+The software enables you to be free where to draw notes, the layout is performed once the software understands what you wrote:
 https://www.youtube.com/watch?v=9qSdSdtywbE
