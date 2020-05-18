@@ -1,6 +1,6 @@
 # openmusicwriter
 
-Open Musicwriter is a software to write music scores.
+Open Musicwriter is a software to write music scores. It was developped between 2008 and 2013, but if somebody finds it useful, no problem to resume the development! The source code is stored on this repository. 
 
 # videos
 
